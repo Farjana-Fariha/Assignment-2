@@ -44,6 +44,7 @@ body{
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 .hero-btn:hover{
     background: #E2412E;
@@ -84,6 +85,10 @@ body{
 .player-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.player_wrapper:hover .player_content h3{
+	color: #E2412E;
+    transition: .3s;
 }
 
 /*
