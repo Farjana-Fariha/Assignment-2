@@ -1,0 +1,117 @@
+
+/* desktop  :99px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* about  */
+    .about_area {
+        padding: 70px 18px;
+    }
+    /* team  */
+    .stuff_wrappper {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero_text h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .hero_image {
+        max-width: 45%;
+    }
+    .hero_section {
+        padding: 80px 0;
+    }
+
+    /* player grid none */
+    .player-box {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* about us  */
+    .about_area {
+        padding: 70px 30px;
+    }
+    /* team  */
+    .stuff_wrappper {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hero_section {
+         flex-direction: column;
+         padding: 0 10px;
+    }
+    .hero_text h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .hero_text {
+        margin-bottom: 50px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 34px;
+    }
+    .hero_image {
+        max-width: 270px;
+    }
+    /* player box grid none */
+    .player-box {
+        grid-template-columns: none;
+    }
+    /* footer copyright */
+    .footer_logo img {
+        width: 250px;
+    }
+
+    /* team  */
+    .stuff_wrappper {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .stuff_box {
+        margin-bottom: 20px;
+    }
+
+
+    /* footer copyright */
+    .about_area {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    .about_wrap {
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about_content h2 {
+        font-size: 30px;
+    }
+    .about_image {
+        max-width: 300px;
+        padding-top: 50px;
+    }
+    .about_content {
+        max-width: 300px;
+    }
+ 
+}
+/* mobie devie */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .hero_section {
+        padding: 0 10px;
+        flex-direction: row;
+    }
+     .player-box {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about_wrap {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* team  */
+    .stuff_wrappper {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
